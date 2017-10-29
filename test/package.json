@@ -1,0 +1,22 @@
+{
+  "name": "starbucks_map",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Linda Xiao",
+  "license": "MIT",
+  "dependencies": {
+    "http": "^0.0.0",
+    "fs": "^0.0.1-security",
+    "path": "^0.12.7",
+    "url": "^0.11.0"
+  },
+  "devDependencies": {},
+  "description": "locate user's position and the starbucks around in New York",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/linda0631/starbucksMap.git"
+  }
+}

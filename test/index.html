@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>starbucksMap</title>
+	
+    <meta name="keywords" content="geolocation, starbucks, New York">
+    <meta name="description" content="this is a page for searching starbucks around the device">
+    <meta name="content-type" content="text/html; charset=UTF-8">
+	<!-- 包含头部信息用于适应不同设备 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    
+    <script src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap" async defer></script>
+	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false&libraries=geometry"></script> 
+    <script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>
+	<!-- 引入 Bootstrap -->
+    <link href="http://apps.bdimg.com/libs/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet">
+	<script src="http://apps.bdimg.com/libs/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    
+    <script src="./js/main.js" type="text/javascript"></script>
+	<link href="./css/main.css" rel="stylesheet" type="text/css">
+
+  </head>
+  
+	<body> 
+		<div class="listview">
+			<table class="search">
+				<td class="tableLine">
+					<th id="starbucks" class="starbucks"></th>
+					<th><input id="button" type="image" src="./assets/search.png"></th>
+					<th><input id="button" type="image" src="./assets/cancel.png"></th>
+				</td>
+			</table>	
+			<div id="list" class="list"></div>
+		</div>
+ 		<div id="map" class="map"></div>  
+	</body>  
+</html>

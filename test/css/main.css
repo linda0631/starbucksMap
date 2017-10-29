@@ -1,0 +1,100 @@
+@CHARSET "UTF-8";
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.listview {
+	width: 30%;  
+    height: 100%; 
+	z-index:99999;
+    position: absolute;
+}
+
+.search {
+	width: 100%;  
+    height: 40px;
+	margin-left: 10px;
+	margin-top: 50px;
+	background: white;
+	box-shadow: 5px 5px 5px #888888;
+	border-radius:5px;
+	}
+
+.starbucks{
+	width: 80%;
+    height: 100%;
+	padding-left: 15px;
+    font-size: 14px;
+}
+
+.button {
+	width: 10%;
+}
+
+.list {  
+    width: 100%; 
+    height: 80%; 
+	margin-left: 10px;
+	margin-top: 10px;
+	background: white;	
+    overflow: scroll; 
+}
+
+dl, dd, dt {
+	padding-left: 15px;
+	padding-right: 15px;
+}
+
+dt {
+	height: 30px;
+	padding-top: 10px;
+	border-top:1px solid silver;
+}
+
+dd {
+	color:dark grey;
+}
+
+.map {  
+    width: 100%;  
+    height: 100%;    
+}
+
+@media screen and (max-width:600px){
+	.listview {
+		width: 100%;  
+	}
+
+	.search {
+		width: 100%;  
+		height: 30px;
+		margin-left: 10px;
+		margin-top: 5px;
+		}
+
+	.starbucks{
+		font-size: 12px;
+	}
+
+	.list {  
+		width: 100%; 
+		height: 50%; 
+		margin-left: 10px;
+		margin-top: 50%;
+		overflow: scroll; 
+	}
+
+	dl, dd, dt {
+		padding-left: 5px;
+		padding-right: 5px;
+		font-size: 11px;
+	}
+
+	dt {
+		height: 15px;
+		padding-top: 5px;
+		border-top:1px solid silver;
+	}
+}
