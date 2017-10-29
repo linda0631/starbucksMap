@@ -8,14 +8,17 @@ And then download this repository and cd into its directory in cmd:
 cd starbucksMap
 
 Install dependencies:
+
 ``npm install (http fs url path)``
 
 Copy the sample configuration file and edit it to match your configuration
 
 You can run the application in local website.
+
 ``node app.js``
 
 Also you can use nodemon for this. 
+
 ``npm install -g nodemon
 nodemon app.js``
 
