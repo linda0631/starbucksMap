@@ -24,10 +24,12 @@ nodemon app.js``
 
 To make the development server be publicly accessible, you can use ngrok or natapp to solve it.
 
-If you want to create a global website with natapp, you need to fristly download th application and then regist and get a free channel authtoken.
+To create a global website with natapp, you need to fristly download th application and then regist and get a free channel authtoken.
 Then run ``natapp -authtoken [yourauthtoken]`` in cmd. Next you can get the website which looks something like this:
 
 http://g76nz3.natappfree.cc/index.html
+
+Then other devices all can visit the website with the address.
 
 
 
