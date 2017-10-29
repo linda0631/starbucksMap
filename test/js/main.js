@@ -2,7 +2,7 @@ function initMap(){
 	if ("geolocation" in navigator) {
 		navigator.geolocation.getCurrentPosition(showPosition);
 	} else {
-		alert('浏览器不支持 geolocation');
+		alert('the browser does not support geolocation!');
 	}
 
 	function showPosition(position) {
@@ -15,7 +15,7 @@ function initMap(){
 		myMarker = new google.maps.Marker({
 			position: latlng,
 			map: map,
-			icon: '../assets/blue_MarkerA.png'
+			icon: './assets/blue_MarkerA.png'
 		});
 		
 		starbucks_list(map);
