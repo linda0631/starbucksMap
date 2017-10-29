@@ -9,8 +9,18 @@ function initMap(){
 		var latlng = new google.maps.LatLng(position.coords.latitude, position.coords.longitude);
 		map = new google.maps.Map(document.getElementById('map'), {
 			zoom: 2,
-			center: latlng
+			center: latlng,
+			gestureHandling: 'cooperative'
 		});
+		
+		var clientWidth = document.body.clientWidth;
+		if (clientWidth<450) {
+			map.panBy(0,100);
+		} else if (clientWidth<800){
+			map.panBy(-80,0);
+		} else {
+			map.panBy(-150,0);
+		}
 		
 		myMarker = new google.maps.Marker({
 			position: latlng,
