@@ -11,7 +11,11 @@ Install dependencies:
 
 ``npm install (http fs url path)``
 
-Copy the sample configuration file and edit it to match your configuration
+Copy the sample configuration file and edit it to match your configuration.
+
+Don't forget to replace your api key in index.html:
+
+```<script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>```
 
 You can run the application in local website.
 
