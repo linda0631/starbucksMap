@@ -9,7 +9,7 @@
 	<!-- 包含头部信息用于适应不同设备 -->
     <meta name="viewport" content="width=device-width, initial-scale=1">
     
-    <script src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap" async defer></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=&callback=initMap" async defer></script>
 	<script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=false&libraries=geometry"></script> 
     <script src="http://cdn.static.runoob.com/libs/jquery/1.10.2/jquery.min.js"></script>
 	<!-- 引入 Bootstrap -->
@@ -22,16 +22,16 @@
   </head>
   
 	<body> 
-		<div class="listview">
-			<table class="search">
-				<td class="tableLine">
-					<th id="starbucks" class="starbucks"></th>
-					<th><input id="button" type="image" src="./assets/search.png"></th>
-					<th><input id="button" type="image" src="./assets/cancel.png"></th>
-				</td>
-			</table>	
-			<div id="list" class="list"></div>
-		</div>
+		<table class="search">
+			<td class="tableLine">
+				<th id="starbucks" class="starbucks"></th>
+				<th><input id="button" type="image" src="./assets/search.png"></th>
+				<th><input id="button" type="image" src="./assets/cancel.png"></th>
+			</td>
+		</table>	
+		
+		<div id="list" class="list"></div>
+		
  		<div id="map" class="map"></div>  
 	</body>  
 </html>
